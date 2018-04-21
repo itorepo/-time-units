@@ -1,2 +1,7 @@
-# -time-units
-Describes properties, methods and interfaces for primary Time Units types, their classes  and relationship
+# @time/units
+----
+A `Time`'s scope library's `"Units"` module, which contains definitions of all standard Time Unit types, widely used for identifying both the **Discrete**-Time **Points** and **Continuous**-Time **Periods** or **Intervals** (**e.g:** _their **beginnings** and **endings** Discrete **Points** at the **durations** Continuous **Lines** sides_) starting from the beginning of **"Common Era"**, also known as **"Anno Domini"** (_the **"Current Era"** - identified by the **"CE"/"AD"** abbreviation letters specified right **after/before** the time-specifying values - respectively).
+
+The module also describes **interfaces**, **methods**, and **properties** for all main `Time Unit` **objects** types, their **classes** implementation, and relations to other `Time Entities`. It defines coefficient **constants** and **methods** for making different `Unit Types` **comparison**, **conversion** and other **logical** or **mathematical** operations. At the same time encapsulating all the hidden calculations parts within a strict types **hierarchy**, it easily allows their seamless extending by popular OOP **inheritance** and **overloading** techniques.
+
+The following table illustrates the variety of `@public Time Unit` object types exposed by the module. Listed in a Time **precision descending** order, either completely _implemented_ or still having _STUB_ methods, along with additional data about their _naming_, _markers_, _references_, _sizes_, and _dimensions_.
